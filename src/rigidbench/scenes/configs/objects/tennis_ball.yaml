@@ -1,0 +1,13 @@
+id: tennis_ball
+name: Tennis ball
+asset:
+  source: blenderkit
+  type: model
+  id: dfbf0b6c-b34d-4ccf-bf71-c1b6054857b6
+  scale: 1.0
+physics:
+  mass: 0.057
+  friction: 0.6
+  restitution: 0.75
+  collision_shape: CONVEX_HULL
+tags: [all, rolling, bouncy]

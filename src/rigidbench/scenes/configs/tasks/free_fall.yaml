@@ -1,0 +1,9 @@
+placements:
+  - type: object
+    name: falling
+    tags: all
+    above: surface
+    height: [0.5, 0.7]
+
+prompt_template: "{falling} is dropping."
+camera_range: [[0, 360]]

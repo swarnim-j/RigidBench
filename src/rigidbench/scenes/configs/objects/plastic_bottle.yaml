@@ -1,0 +1,13 @@
+id: plastic_bottle
+name: Plastic bottle
+asset:
+  source: blenderkit
+  type: model
+  id: 0361f533-d584-4bb6-b471-b30c40542318
+  scale: 1.0
+physics:
+  mass: 0.2
+  friction: 0.3
+  restitution: 0.25
+  collision_shape: CONVEX_HULL
+tags: [all, stackable]

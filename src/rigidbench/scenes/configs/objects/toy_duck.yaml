@@ -1,0 +1,13 @@
+id: toy_duck
+name: Toy duck
+asset:
+  source: blenderkit
+  type: model
+  id: c985d703-2eb2-4f6f-9baf-9162a9e14d2d
+  scale: 0.8
+physics:
+  mass: 0.1
+  friction: 0.6
+  restitution: 0.3
+  collision_shape: CONVEX_HULL
+tags: [all, stackable]

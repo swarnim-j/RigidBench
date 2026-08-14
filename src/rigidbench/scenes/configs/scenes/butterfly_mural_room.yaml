@@ -1,0 +1,11 @@
+id: butterfly_mural_room
+name: Butterfly Mural Room
+asset:
+  source: blenderkit
+  type: scene
+  id: 6eab280b-6455-4d6c-bc45-1d9968a7b87b
+surfaces:
+  carpet:
+    center: [1.55, -0.13, 0.0]
+    size: [3.147, 2.366]
+    long_axis_deg: 90.01

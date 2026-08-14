@@ -1,0 +1,13 @@
+id: soda_can
+name: Soda can
+asset:
+  source: blenderkit
+  type: model
+  id: f44d5e76-428c-4bd3-ab29-35403cd1e45d
+  scale: 1.0
+physics:
+  mass: 0.35
+  friction: 0.4
+  restitution: 0.2
+  collision_shape: CONVEX_HULL
+tags: [all, stackable]

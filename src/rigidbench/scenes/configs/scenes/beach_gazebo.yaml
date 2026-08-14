@@ -1,0 +1,16 @@
+id: beach_gazebo
+name: Beach Gazebo
+asset:
+  source: blenderkit
+  type: scene
+  id: 8e3c53a1-a033-4946-86ca-835554fe43fb
+surfaces:
+  Cylinder:
+    center: [1.771, 4.251, 0.375]
+    size: [1.065, 1.065]
+    long_axis_deg: 80.94
+    clutter_hide:
+      - Cube
+      - Cube.001
+      - Cylinder.003
+      - ESTRELA

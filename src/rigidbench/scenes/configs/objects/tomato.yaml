@@ -1,0 +1,13 @@
+id: tomato
+name: Tomato
+asset:
+  source: blenderkit
+  type: model
+  id: f72869bb-c2a7-4f84-bd46-8801b6535e9d
+  scale: 1.0
+physics:
+  mass: 0.1
+  friction: 0.4
+  restitution: 0.1
+  collision_shape: CONVEX_HULL
+tags: [all, rolling, stackable]

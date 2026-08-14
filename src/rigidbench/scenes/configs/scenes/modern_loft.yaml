@@ -1,0 +1,11 @@
+id: modern_loft
+name: Modern Loft Apartment
+asset:
+  source: blenderkit
+  type: scene
+  id: 05057669-22df-4e62-a03a-b665524c7135
+surfaces:
+  Counter:
+    center: [3.9, -5.92, 0.55]
+    size: [2.688, 0.925]
+    long_axis_deg: 1.53

@@ -1,0 +1,40 @@
+placements:
+  - type: ramp
+    name: ramp_left
+    length: [0.35, 0.45]
+    height: [0.15, 0.25]
+    width: [0.20, 0.30]
+    support: surface
+    material: ramp
+    facing: forward
+    gap: [0.10, 0.15]
+
+  - type: ramp
+    name: ramp_right
+    length: [0.35, 0.45]
+    height: [0.15, 0.25]
+    width: [0.20, 0.30]
+    support: surface
+    material: ramp
+    facing: backward
+    gap: [0.10, 0.15]
+
+  - type: object
+    name: rolling_left
+    tags: rolling
+    support: ramp_left
+    position: 0.25
+    align: true
+
+  - type: object
+    name: rolling_right
+    tags: rolling
+    support: ramp_right
+    position: 0.25
+    align: true
+
+materials:
+  ramp: [light_wood, dark_wood, polished_white_marble, rough_grey_concrete]
+
+prompt_template: "{rolling_left} and {rolling_right} are rolling down two ramps facing each other."
+camera_range: [[70, 110], [250, 290]]

@@ -1,0 +1,18 @@
+id: coastal_living_room
+name: Coastal Living Room
+asset:
+  source: blenderkit
+  type: scene
+  id: e9bd391f-58ca-480a-a064-3dc255c5f93d
+surfaces:
+  Object014:
+    center: [0.137, -1.036, 0.475]
+    size: [1.219, 0.711]
+    long_axis_deg: 0.0
+    clutter_hide:
+      - Cylinder
+      - eheveriya001
+      - eheveriya002
+      - kamni001
+      - kamni002
+      - tolstyanka001

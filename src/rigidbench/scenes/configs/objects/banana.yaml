@@ -1,0 +1,13 @@
+id: banana
+name: Banana
+asset:
+  source: blenderkit
+  type: model
+  id: 8a35a0ea-9ac2-4771-a1dc-5b202f5ba0a8
+  scale: 1.0
+physics:
+  mass: 0.12
+  friction: 0.4
+  restitution: 0.1
+  collision_shape: CONVEX_HULL
+tags: [all, rolling]

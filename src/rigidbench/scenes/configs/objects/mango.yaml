@@ -1,0 +1,13 @@
+id: mango
+name: Mango
+asset:
+  source: blenderkit
+  type: model
+  id: a813519a-a673-4698-818e-b42084167619
+  scale: 0.8
+physics:
+  mass: 0.2
+  friction: 0.4
+  restitution: 0.15
+  collision_shape: CONVEX_HULL
+tags: [all, rolling, stackable]

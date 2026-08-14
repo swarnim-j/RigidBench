@@ -1,0 +1,13 @@
+id: rugby_ball
+name: Rugby ball
+asset:
+  source: blenderkit
+  type: model
+  id: 0398a7c1-21b6-41dd-8a7f-581b16babad9
+  scale: 0.81
+physics:
+  mass: 0.41
+  friction: 0.55
+  restitution: 0.55
+  collision_shape: CONVEX_HULL
+tags: [all, rolling]

@@ -1,0 +1,14 @@
+id: modern_luxury_kitchen
+name: Modern Luxury Kitchen
+asset:
+  source: blenderkit
+  type: scene
+  id: a2391e6a-c357-4624-8e4a-7cb7099c7cc9
+surfaces:
+  handle:
+    center: [0.058, -0.854, 0.807]
+    size: [2.922, 1.102]
+    long_axis_deg: 84.09
+    clutter_hide:
+      - Mug.008
+      - Mug.009

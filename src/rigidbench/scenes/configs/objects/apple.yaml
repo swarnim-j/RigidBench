@@ -1,0 +1,13 @@
+id: apple
+name: Apple
+asset:
+  source: blenderkit
+  type: model
+  id: 41508bc8-36b3-4830-8268-a5e845f95b02
+  scale: 1.0
+physics:
+  mass: 0.18
+  friction: 0.4
+  restitution: 0.15
+  collision_shape: CONVEX_HULL
+tags: [all, rolling, stackable]

@@ -1,0 +1,13 @@
+resolution: [1280, 704]
+fps: 24
+frames: 49
+engine: CYCLES
+samples: 32
+use_gpu: true
+output_format: PNG
+camera:
+  elevation: 10
+  min_distance: 1.4
+  framing_margin: 1.4
+  bbox_padding: 0.2
+  lens: 35

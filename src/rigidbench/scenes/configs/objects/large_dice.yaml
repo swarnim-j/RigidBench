@@ -1,0 +1,13 @@
+id: large_dice
+name: Large dice
+asset:
+  source: blenderkit
+  type: model
+  id: 306f5b8c-c696-464d-950d-ded808dced72
+  scale: 4.0
+physics:
+  mass: 0.06
+  friction: 0.45
+  restitution: 0.25
+  collision_shape: CONVEX_HULL
+tags: [all, stackable]

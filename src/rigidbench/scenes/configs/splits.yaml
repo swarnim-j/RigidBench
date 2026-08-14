@@ -1,0 +1,45 @@
+tasks: [free_fall, bounce, ball_chain, drop_into_cluster, ramp_collision]
+
+train:
+  scenes:
+    - hallway_interior
+    - modern_loft
+    - modern_luxury_kitchen
+    - minimal_white_kitchen
+    - modern_japandi_dining
+    - dining_room_set
+    - modular_flat
+    - coastal_living_room
+  objects:
+    - apple
+    - orange
+    - lemon
+    - kiwi
+    - pomegranate
+    - pear
+    - mango
+    - banana
+    - watermelon
+    - baseball
+    - bouncy_ball
+    - rugby_ball
+    - red_bull_can
+    - plastic_bottle
+    - large_dice
+    - food_can
+
+held_out:
+  scenes:
+    - beach_gazebo
+    - butterfly_mural_room
+    - cozy_living_room
+    - modern_warm_kitchen
+  objects:
+    - peach
+    - tomato
+    - coconut
+    - tennis_ball
+    - toy_duck
+    - cricket_ball
+    - rubiks_cube
+    - soda_can

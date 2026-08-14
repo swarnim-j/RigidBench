@@ -1,0 +1,13 @@
+id: food_can
+name: Food can
+asset:
+  source: blenderkit
+  type: model
+  id: 4963eacf-033c-48b5-9e39-e9802713b9d3
+  scale: 1.0
+physics:
+  mass: 0.32
+  friction: 0.4
+  restitution: 0.2
+  collision_shape: CONVEX_HULL
+tags: [all, stackable]

@@ -1,0 +1,30 @@
+placements:
+  - type: ramp
+    name: ramp
+    length: [0.5, 0.7]
+    height: [0.3, 0.45]
+    width: [0.3, 0.4]
+    support: surface
+    material: ramp
+
+  - type: object
+    name: rolling
+    tags: rolling
+    support: ramp
+    position: 0.25
+    align: true
+
+  - type: line
+    name: chain
+    tags: stackable
+    count: 3
+    support: surface
+    in_front_of: ramp
+    distance: [0.08, 0.12]
+    gap: [0.02, 0.04]
+
+materials:
+  ramp: [light_wood, dark_wood, polished_white_marble, rough_grey_concrete]
+
+prompt_template: "{rolling} is rolling down the ramp toward a row of objects."
+camera_range: [[60, 150], [210, 300]]

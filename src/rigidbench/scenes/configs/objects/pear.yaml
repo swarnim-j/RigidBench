@@ -1,0 +1,13 @@
+id: pear
+name: Pear
+asset:
+  source: blenderkit
+  type: model
+  id: 5dc73e58-8eb4-47ed-81a5-c163fb8b6b5c
+  scale: 0.85
+physics:
+  mass: 0.18
+  friction: 0.4
+  restitution: 0.15
+  collision_shape: CONVEX_HULL
+tags: [all, rolling, stackable]

@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "If you use RigidBench, please cite this dataset."
+type: dataset
+title: "RigidBench: simulator-grounded evaluation data for rigid-body physics in video generation"
+authors:
+  - family-names: "Jain"
+    given-names: "Swarnim"
+    affiliation: "University of Cambridge"
+  - family-names: "Wu"
+    given-names: "Shangzhe"
+    affiliation: "University of Cambridge"
+doi: "10.5281/zenodo.21649156"
+version: "1.1.0"
+date-released: "2026-07-28"
+license: "CC-BY-4.0"
+repository-code: "https://github.com/swarnim-j/RigidBench"

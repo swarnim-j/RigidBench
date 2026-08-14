@@ -1,0 +1,13 @@
+placements:
+  - type: object
+    name: bouncing
+    tags: bouncy
+    above: surface
+    height: [0.5, 0.7]
+
+surface_physics:
+  restitution: 0.6
+  friction: 0.3
+
+prompt_template: "{bouncing} is dropping."
+camera_range: [[0, 360]]

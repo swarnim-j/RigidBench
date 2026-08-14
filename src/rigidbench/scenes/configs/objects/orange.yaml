@@ -1,0 +1,13 @@
+id: orange
+name: Orange
+asset:
+  source: blenderkit
+  type: model
+  id: 51293c85-1760-48da-9c2a-b9934bf904a6
+  scale: 0.9
+physics:
+  mass: 0.17
+  friction: 0.4
+  restitution: 0.15
+  collision_shape: CONVEX_HULL
+tags: [all, rolling, stackable]

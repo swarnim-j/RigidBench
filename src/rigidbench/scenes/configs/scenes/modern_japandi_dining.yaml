@@ -1,0 +1,18 @@
+id: modern_japandi_dining
+name: Modern Japandi Dining
+asset:
+  source: blenderkit
+  type: scene
+  id: 474f7c33-1600-416b-a116-8110af943cb0
+surfaces:
+  Table.005:
+    center: [0.067, -0.081, 0.808]
+    size: [1.699, 0.861]
+    long_axis_deg: 0.0
+    clutter_hide:
+      - Book
+      - Decoration
+      - Green_Plants
+      - Plate
+      - Chandelier
+      - Chandelier.001

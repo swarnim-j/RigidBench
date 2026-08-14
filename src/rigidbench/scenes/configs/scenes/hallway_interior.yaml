@@ -1,0 +1,21 @@
+id: hallway_interior
+name: Hallway Indoor Interior
+asset:
+  source: blenderkit
+  type: scene
+  id: 34d94d48-fa19-435b-9cb2-a00a305ffa6f
+surfaces:
+  Circle:
+    center: [3.89, -3.19, 1.25]
+    size: [3.056, 3.056]
+    long_axis_deg: 90.0
+    clutter_hide:
+      - Cube.018
+      - Cube.016
+      - Cube.017
+      - Cube.009
+      - Cube.007
+      - Cube.008
+      - Cube.012
+      - Cube.010
+      - Cube.011

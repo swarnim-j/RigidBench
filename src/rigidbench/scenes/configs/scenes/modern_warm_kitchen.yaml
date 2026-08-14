@@ -1,0 +1,24 @@
+id: modern_warm_kitchen
+name: Modern Warm Kitchen
+asset:
+  source: blenderkit
+  type: scene
+  id: 9b517ae5-b5af-4eb6-a592-83c1e00b4c87
+surfaces:
+  Desk:
+    center: [1.627, -0.891, 0.675]
+    size: [2.22, 1.058]
+    long_axis_deg: 90.0
+    clutter_hide:
+      - barks
+      - barks.001
+      - Bowl
+      - leaves
+      - leaves.001
+      - Pot
+      - Chair.001
+      - Chair.002
+      - Chair.003
+      - Chair.004
+      - Chair.005
+      - Chair.006

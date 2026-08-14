@@ -1,0 +1,24 @@
+id: minimal_white_kitchen
+name: Minimal White Kitchen
+asset:
+  source: blenderkit
+  type: scene
+  id: 70ac2038-b420-4bd3-8d6e-ec9c7bd9c439
+surfaces:
+  Box013:
+    center: [-0.166, -0.786, 0.905]
+    size: [1.603, 1.183]
+    long_axis_deg: 9.49
+    clutter_hide:
+      - Cylinder674
+      - Cylinder675
+      - Cylinder676
+      - Cylinder677
+      - Line268.001
+      - Object004
+      - Object006
+      - Object489
+      - Small_Victories_Cookbook.001
+      - TeaKettle02
+      - Line002
+      - Line268

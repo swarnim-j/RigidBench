@@ -1,0 +1,29 @@
+model_id: Wan-AI/Wan2.2-TI2V-5B
+
+max_steps: 5000
+batch_size: 2
+gradient_accumulation_steps: 8
+lr: 1e-4
+weight_decay: 0.01
+adam_eps: 1e-8
+grad_clip: 1.0
+grad_checkpoint: false
+strategy: ddp
+warmup_ratio: 0.05
+num_train_timesteps: 1000
+ckpt_every_steps: 500
+log_every_n_steps: 1
+num_workers: 4
+seed: 42
+
+lora:
+  rank: 32
+  alpha: 32
+  dropout: 0.0
+  target_modules:
+    - q
+    - k
+    - v
+    - o
+    - ffn.0
+    - ffn.2

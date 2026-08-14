@@ -1,0 +1,13 @@
+id: cricket_ball
+name: Cricket ball
+asset:
+  source: blenderkit
+  type: model
+  id: 4557b395-e682-474c-84a5-8fd33ab17cc7
+  scale: 1.0
+physics:
+  mass: 0.16
+  friction: 0.55
+  restitution: 0.35
+  collision_shape: CONVEX_HULL
+tags: [all, rolling, bouncy]

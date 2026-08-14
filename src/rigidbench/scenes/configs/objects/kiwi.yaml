@@ -1,0 +1,13 @@
+id: kiwi
+name: Kiwi
+asset:
+  source: blenderkit
+  type: model
+  id: c81487cc-11c1-48af-94fb-4a4433804452
+  scale: 0.72
+physics:
+  mass: 0.08
+  friction: 0.45
+  restitution: 0.1
+  collision_shape: CONVEX_HULL
+tags: [all, rolling, stackable]

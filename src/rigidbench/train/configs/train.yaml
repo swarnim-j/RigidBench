@@ -1,0 +1,17 @@
+model_id: Wan-AI/Wan2.2-TI2V-5B
+
+max_steps: 3000
+batch_size: 16
+gradient_accumulation_steps: 1
+lr: 2e-5
+weight_decay: 0.01
+adam_eps: 1e-8
+grad_clip: 1.0
+grad_checkpoint: true
+freeze_conditioning: true
+warmup_ratio: 0.05
+num_train_timesteps: 1000
+ckpt_every_steps: 500
+log_every_n_steps: 1
+num_workers: 4
+seed: 42

@@ -1,0 +1,13 @@
+id: bouncy_ball
+name: Bouncy ball
+asset:
+  source: blenderkit
+  type: model
+  id: 9704eeef-870f-45a6-b257-4e2b3faafc0c
+  scale: 1.33
+physics:
+  mass: 0.03
+  friction: 0.75
+  restitution: 0.85
+  collision_shape: CONVEX_HULL
+tags: [all, rolling, bouncy]

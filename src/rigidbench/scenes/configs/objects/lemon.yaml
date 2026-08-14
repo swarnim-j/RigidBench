@@ -1,0 +1,13 @@
+id: lemon
+name: Lemon
+asset:
+  source: blenderkit
+  type: model
+  id: 600df5a7-bf9a-477f-a177-86237daafa03
+  scale: 1.3
+physics:
+  mass: 0.09
+  friction: 0.4
+  restitution: 0.15
+  collision_shape: CONVEX_HULL
+tags: [all, rolling, stackable]

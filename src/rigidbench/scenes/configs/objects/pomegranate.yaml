@@ -1,0 +1,13 @@
+id: pomegranate
+name: Pomegranate
+asset:
+  source: blenderkit
+  type: model
+  id: 7bbb90e1-de92-4d00-af48-459d24ad3173
+  scale: 0.85
+physics:
+  mass: 0.28
+  friction: 0.4
+  restitution: 0.15
+  collision_shape: CONVEX_HULL
+tags: [all, rolling, stackable]

@@ -1,0 +1,19 @@
+id: dining_room_set
+name: Dining Room Set
+asset:
+  source: blenderkit
+  type: scene
+  id: 16f99ede-6123-49a1-bd40-3008a8e0a173
+surfaces:
+  Table.002:
+    center: [0.0, 0.002, 0.756]
+    size: [1.6, 0.978]
+    long_axis_deg: 0.0
+    clutter_hide:
+      - Cube.001
+      - Cylinder.004
+      - Cylinder.011
+      - Cube.003
+      - Line
+      - BezierCurve
+      - Cube.009

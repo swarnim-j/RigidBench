@@ -1,0 +1,13 @@
+id: baseball
+name: Baseball
+asset:
+  source: blenderkit
+  type: model
+  id: 97cff96a-24c3-45ea-aadf-96d89604054e
+  scale: 1.0
+physics:
+  mass: 0.145
+  friction: 0.5
+  restitution: 0.3
+  collision_shape: CONVEX_HULL
+tags: [all, rolling, bouncy]

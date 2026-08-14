@@ -1,0 +1,16 @@
+placements:
+  - type: cluster
+    name: cluster
+    tags: stackable
+    count: 3
+    gap: [0.003, 0.008]
+    support: surface
+
+  - type: object
+    name: faller
+    tags: all
+    above: surface
+    height: [0.5, 0.7]
+
+prompt_template: "{faller} is dropping onto a cluster of objects."
+camera_range: [[0, 360]]

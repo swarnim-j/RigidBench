@@ -1,0 +1,13 @@
+id: rubiks_cube
+name: Rubik's cube
+asset:
+  source: blenderkit
+  type: model
+  id: bdfd2285-0e25-49e5-90d9-8d6eaaef9835
+  scale: 1.0
+physics:
+  mass: 0.085
+  friction: 0.4
+  restitution: 0.25
+  collision_shape: CONVEX_HULL
+tags: [all, stackable]

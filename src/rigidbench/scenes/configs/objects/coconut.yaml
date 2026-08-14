@@ -1,0 +1,13 @@
+id: coconut
+name: Coconut
+asset:
+  source: blenderkit
+  type: model
+  id: 8deadefc-d10c-404d-bd55-3c9ed2925479
+  scale: 0.7
+physics:
+  mass: 0.45
+  friction: 0.6
+  restitution: 0.2
+  collision_shape: CONVEX_HULL
+tags: [all, rolling, stackable]

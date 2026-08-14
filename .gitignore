@@ -1,0 +1,57 @@
+# Private working material
+/site/
+/papers/
+/notes/
+/dissertation.pdf
+
+# Data, predictions, checkpoints, and experiment output
+/data/
+/predictions/
+/outputs/
+/runs/
+/output/
+/artifacts/
+/checkpoints/
+/wandb/
+/tmp/
+/.wrangler/
+/vendor/
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+*.local
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# LaTeX
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.synctex.gz
+_minted-*/
+
+# JavaScript and TypeScript
+node_modules/
+dist/
+*.tsbuildinfo
+
+# Editors and operating systems
+.DS_Store
+.idea/
+.vscode/
+*~

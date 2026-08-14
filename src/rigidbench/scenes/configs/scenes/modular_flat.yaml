@@ -1,0 +1,19 @@
+id: modular_flat
+name: Modular Flat
+asset:
+  source: blenderkit
+  type: scene
+  id: 7ff0e5a9-a396-476f-86b9-10ef62401192
+surfaces:
+  Cube.006:
+    center: [2.094, 1.71, 0.548]
+    size: [1.272, 0.886]
+    long_axis_deg: 0.0
+    clutter_hide:
+      - Art_for_All_05
+      - Book Up 001.001
+      - Cylinder051
+      - Chair_02.001
+      - Cube.014
+      - Cube.015
+      - Cube.016

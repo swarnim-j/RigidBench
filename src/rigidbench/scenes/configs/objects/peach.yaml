@@ -1,0 +1,13 @@
+id: peach
+name: Peach
+asset:
+  source: blenderkit
+  type: model
+  id: c256bd50-9783-4daf-b7e9-a46b373ec5fd
+  scale: 0.68
+physics:
+  mass: 0.15
+  friction: 0.45
+  restitution: 0.1
+  collision_shape: CONVEX_HULL
+tags: [all, rolling, stackable]
